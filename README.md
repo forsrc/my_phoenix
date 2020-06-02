@@ -11,6 +11,10 @@ mix local.hex
 mix archive.install hex phx_new
 sudo apt-get install nodejs npm
 ```
+## DB
+```
+docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+```
 ## phoenix
 ```
 mix phx.new my_phoenix
