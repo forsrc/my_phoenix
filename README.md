@@ -11,3 +11,8 @@ mix local.hex
 mix archive.install hex phx_new
 sudo apt-get install nodejs npm
 ```
+## phoenix
+```
+mix phx.new my_phoenix
+cd my_phoenix
+```
